@@ -1,0 +1,7 @@
+out=$(adb -s $ADB_SERVER_IP:5555 $1 $2 $3 $4)
+exit
+if [ "$out" = "error: device not found" ]
+then
+    adb connect $ADB_SERVER_IP:5555
+    adb -s $ADB_SERVER_IP:5555 $1 $2 $3 $4
+fi

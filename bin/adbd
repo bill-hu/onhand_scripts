@@ -1,0 +1,7 @@
+if [ ! -z "$ADB_SERVER_IP" ]
+then
+adb disconnect $ADB_SERVER_IP:5555
+export ADB_SERVER_IP
+else
+echo "\$ADB_SERVER_IP not exported"
+fi

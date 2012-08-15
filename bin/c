@@ -1,0 +1,1 @@
+adb connect $ADB_SERVER_IP

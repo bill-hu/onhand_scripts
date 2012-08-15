@@ -1,0 +1,4 @@
+#!/bin/bash 
+adb connect $1
+export ADB_SERVER_IP="$1"
+echo export ADB_SERVER_IP="$1"

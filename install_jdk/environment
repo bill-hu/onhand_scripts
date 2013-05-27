@@ -1,0 +1,4 @@
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jdk1.6.0_10/bin"
+CLASS_PATH=".:/usr/libjdk1.6.0_10/lib"
+JAVA_HOME="/usr/lib/jdk6/jdk1.6.0_10"
+

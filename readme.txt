@@ -17,4 +17,7 @@ some times,adb connection will disconnect,then you should reconnect
 adb connect $ADB_SERVER_IP
 ------------------------------------
 git related:
+------------------------------------
+mount_smbdir.sh : 
+example of mount a smb dir to local dir 57
 

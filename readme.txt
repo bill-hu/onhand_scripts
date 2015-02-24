@@ -15,6 +15,9 @@ you need type:a push xxx.apk /system/app
 4.c
 some times,adb connection will disconnect,then you should reconnect
 adb connect $ADB_SERVER_IP
+
+5.backup_git.pl
+back up all the git in a folder to another folder
 ------------------------------------
 git related:
 ------------------------------------

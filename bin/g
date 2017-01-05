@@ -12,6 +12,6 @@ identifier="--"
 if len(sys.argv) <3:
      print "Usage: "+sys.argv[0]+" Keyword "+ "filetype" 
      exit(-1)
-cmd="find . -name \""+sys.argv[2]+"\"|xargs grep -n \""+sys.argv[1]+"\""
+cmd="find . -type f -name \""+sys.argv[2]+"\"|xargs grep -n \""+sys.argv[1]+"\""
 print cmd
 os.system(cmd);

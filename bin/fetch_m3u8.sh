@@ -25,9 +25,9 @@ for ((i=0;i<num-1;i++))
 
 echo $path
 
-curl -i $1 -o $m3u8
+curl $1 -o $m3u8
 grep ts $m3u8 |while read LINE
 do
     echo fetching: $path$LINE
-	curl -i $path$LINE -o $LINE
+	curl $path$LINE -o $LINE
 done

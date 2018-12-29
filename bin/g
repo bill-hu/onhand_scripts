@@ -1,4 +1,4 @@
-#!/usr/bin/python2.6 
+#!/usr/bin/python 
 #cording=utf-8
 import sys,os
 import shutil

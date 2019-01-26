@@ -1,0 +1,1 @@
+dir /s %1 /b |  sed "s:\\\:\/:g" | xargs grep %2
